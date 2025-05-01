@@ -1,0 +1,14 @@
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\bin\Debug\net8.0\PiedraPapelTijera.exe
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\bin\Debug\net8.0\PiedraPapelTijera.deps.json
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\bin\Debug\net8.0\PiedraPapelTijera.runtimeconfig.json
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\bin\Debug\net8.0\PiedraPapelTijera.dll
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\bin\Debug\net8.0\PiedraPapelTijera.pdb
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.AssemblyInfoInputs.cache
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.AssemblyInfo.cs
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.csproj.CoreCompileInputs.cache
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.dll
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\refint\PiedraPapelTijera.dll
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.pdb
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\PiedraPapelTijera.genruntimeconfig.cache
+C:\Users\arife\OneDrive\Documentos\PiedraPapelTijera\obj\Debug\net8.0\ref\PiedraPapelTijera.dll

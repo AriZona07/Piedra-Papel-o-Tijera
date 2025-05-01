@@ -1,0 +1,113 @@
+/*
+    * Este programa sirve para jugar piedra, papel o tijera.
+    * La maquina da una respuesta aleatoria y el usuario tiene que elegir entre piedra, papel o tijera.
+    * Al final se dice el ganador.
+    * Fecha de creación: 01/05/2025
+    * Autora: Arianna Fernanda
+*/
+using System.Linq.Expressions;
+
+namespace PiedraPapelTijera
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Datos de entrada
+            int piedra = 1;
+            int papel = 2;
+            int tijera = 3;
+
+            // Proceso
+            Console.WriteLine("Ingresa una opción: 1. Piedra, 2. Papel, 3. Tijera");
+
+            int respuestaUsuario;
+            try
+            {
+                respuestaUsuario = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("\nError: Debes ingresar un número entero.");
+                return;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"\nError inesperado: {ex.Message}");
+                return;
+            }
+
+            // Validar
+            if (!(respuestaUsuario == 1 || respuestaUsuario == 2 || respuestaUsuario == 3))
+            {
+                Console.WriteLine("\nOpción no válida");
+                return;
+            }
+
+            // Respuesta aleatoria de la máquina
+            Random random = new Random();
+            int respuestaMaquina = random.Next(1, 4); // Genera un número aleatorio entre 1 y 3
+            string eleccionMaquina = "";
+            switch (respuestaMaquina)
+            {
+                case 1:
+                    eleccionMaquina = "piedra";
+                    break;
+                case 2:
+                    eleccionMaquina = "papel";
+                    break;
+                case 3:
+                    eleccionMaquina = "tijera";
+                    break;
+            }
+            Console.WriteLine($"\nLa máquina elige... ¡{eleccionMaquina}!");
+
+            // Comparar resultados
+            Console.WriteLine($"\n");
+            if (respuestaMaquina == respuestaUsuario)
+            { 
+                Console.WriteLine("¡Es un empate!");
+                return;
+            }
+            if (respuestaMaquina == piedra)
+            {
+                if (respuestaUsuario == papel)
+                {
+                    Console.WriteLine("¡Ganaste!");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("¡Perdiste!");
+                    return;
+                }
+            }
+            if (respuestaMaquina == papel)
+            {
+                if (respuestaUsuario == tijera)
+                {
+                    Console.WriteLine("¡Ganaste!");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("¡Perdiste!");
+                    return;
+                }
+            }
+            if (respuestaMaquina == tijera)
+            {
+                if (respuestaUsuario == piedra)
+                {
+                    Console.WriteLine("¡Ganaste!");
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("¡Perdiste!");
+                    return;
+                }
+            }
+        }
+    }
+}
